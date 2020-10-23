@@ -1,0 +1,6 @@
+{
+    "name": "dva4.io",
+    "description": "A realtime multiplayer forum Node.js, Express, Mongoose, Socket.io, Passport, & Redis.",
+    "repository": "https://github.com/h8mach1ne/dva4.io.git",
+    "logo": ""
+  }
