@@ -1,17 +1,17 @@
 {
   "name": "dva4",
   "version": "1.0.0",
-  "description": "",
+  "description": "nothing yet",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/h8mach1ne/dva4.io.git"
   },
-  "author": "",
+  "author": "h8m4ch1ne",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/h8mach1ne/dva4.io/issues"
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/h8mach1ne/dva4.io#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "lint": "^0.7.0",
     "mongoose": "^5.10.7",
     "passport": "^0.4.1",
     "passport-facebook": "^3.0.0",
@@ -26,6 +27,12 @@
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "eslint": "^7.11.0"
-  }
+    "eslint": "^7.11.0",
+    "mocha": "^8.2.0"
+  },
+  "keywords": [
+    "npm",
+    "js",
+    "node"
+  ]
 }
