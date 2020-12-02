@@ -1,0 +1,43 @@
+{
+  "name": "dva4.io",
+  "version": "1.0.0",
+  "description": "chat application",
+  "private": true,
+  "scripts": {
+    "test": "npm install && mocha",
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "node server.js",
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build",
+    "deploy": "git push heroku master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h8mach1ne/dva4.io.git"
+  },
+  "author": "h8m4ch1ne, Kate G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h8mach1ne/dva4.io/issues"
+  },
+  "homepage": "https://github.com/h8mach1ne/dva4.io#readme",
+  "dependencies": {
+    "@nuxtjs/pwa": "^3.3.2",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "lint": "^0.7.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "nodemon": "^2.0.6",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "mocha": "^8.2.0"
+  },
+  "keywords": [
+    "npm",
+    "js",
+    "node"
+  ]
+}
