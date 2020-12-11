@@ -3,12 +3,14 @@
     "name": "chat",
     "path": "/chat",
     "component": "D:\\\\dva4.io\\\\pages\\\\chat.vue",
-    "chunkName": "pages/chat"
+    "chunkName": "pages/chat",
+    "_name": "_37e69051"
   },
   {
     "name": "index",
     "path": "/",
     "component": "D:\\\\dva4.io\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_36d93829"
   }
 ]
