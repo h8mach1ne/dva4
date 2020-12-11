@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "test": "npm install && mocha",
-    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "dev": "node index.js --watch server",
     "build": "nuxt build",
-    "start": "node server.js",
+    "start": "node index.js",
     "generate": "nuxt generate",
     "heroku-postbuild": "npm run build",
     "deploy": "git push heroku master"
@@ -38,6 +38,8 @@
   "keywords": [
     "npm",
     "js",
-    "node"
+    "node",
+    "nuxt",
+    "vue"
   ]
 }
