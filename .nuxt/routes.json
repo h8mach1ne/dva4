@@ -1,0 +1,14 @@
+[
+  {
+    "name": "chat",
+    "path": "/chat",
+    "component": "D:\\\\dva4.io\\\\pages\\\\chat.vue",
+    "chunkName": "pages/chat"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\dva4.io\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
