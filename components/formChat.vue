@@ -13,7 +13,7 @@
 export default {
   data: () => ({
     text: "",
-    label: "Press enter to send",
+    label: "Press enter to send message",
     shaped: true,
     outlined: true,
     rounded: true,
