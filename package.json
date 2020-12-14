@@ -29,7 +29,7 @@
   "dependencies": {
     "@nuxtjs/pwa": "^3.3.2",
     "cross-env": "^7.0.3",
-    "express": "^4.17.1",
+    "express": "^4.16.4",
     "heroku": "^7.47.5",
     "lint": "^0.7.0",
     "nuxt": "^2.14.11",
@@ -37,16 +37,20 @@
     "vue-socket.io": "^3.0.10"
   },
   "devDependencies": {
-    "eslint": "^7.11.0",
-    "nodemon": "^2.0.6",
     "@nuxtjs/vuetify": "^1.11.2",
-    "mocha": "^8.2.0"
+    "@types/express": "^4.16.1",
+    "eslint": "^7.11.0",
+    "mocha": "^8.2.0",
+    "nodemon": "^2.0.6",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
   },
   "keywords": [
     "npm",
     "js",
     "node",
     "nuxt",
-    "vue"
+    "vue",
+    "ts"
   ]
 }

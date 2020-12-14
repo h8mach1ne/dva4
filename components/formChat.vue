@@ -11,9 +11,10 @@
 </template>
 <script>
 export default {
-  data: () => ({
+  data: () => (
+    {
     text: "",
-    label: "Press enter to send message",
+    label: "Press 'enter' to send message",
     shaped: true,
     outlined: true,
     rounded: true,
