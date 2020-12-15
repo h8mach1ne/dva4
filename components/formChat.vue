@@ -14,7 +14,7 @@ export default {
   data: () => (
     {
     text: "",
-    label: "Press 'enter' to send message",
+    label: "Press Enter to send message",
     shaped: true,
     outlined: true,
     rounded: true,
