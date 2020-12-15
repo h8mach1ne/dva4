@@ -14,7 +14,8 @@
     "start": "node server/index.js",
     "generate": "nuxt generate",
     "heroku-postbuild": "npm run build",
-    "deploy": "git push heroku master"
+    "deploy": "git push heroku master",
+    "tsc:w": "tsc -w"
   },
   "repository": {
     "type": "git",
