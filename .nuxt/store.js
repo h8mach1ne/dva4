@@ -6,6 +6,8 @@ Vue.use(Vuex)
 let store = {};
 
 (function updateModules () {
+  store = normalizeRoot(require('..\\store\\index.js'), 'store/index.js')
+
   // If store is an exported method = classic mode (deprecated)
 
   if (typeof store === 'function') {
@@ -20,6 +22,7 @@ let store = {};
   if (process.client && module.hot) {
     // Whenever any Vuex module is updated...
     module.hot.accept([
+      '..\\store\\index.js',
     ], () => {
       // Update `root.modules` with the latest definitions.
       updateModules()
